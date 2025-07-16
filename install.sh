@@ -12,4 +12,8 @@ function yes_or_no {
 }
 
 # Appends a source to .bashrc
-yes_or_no "Install uvg?" && echo "# --- Initializes uv-global --- " && echo "source $SCRIPT_DIR" #>> ~/.bashrc
+yes_or_no "Install uv-global?" && printf '%s' "
+# >>> uv-global initalize >>> 
+source $SCRIPT_DIR/main.sh 
+# <<< uv-global initalize <<<
+"
