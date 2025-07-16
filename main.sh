@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#ENV_DIR="/home/kathy/Documents/dev/uv_test/hello"
-
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 UVG_ADD_FLAIR=0
