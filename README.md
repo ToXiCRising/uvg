@@ -2,6 +2,9 @@
 A very small uv wrapper that lets you manage and use "globally" installed uv-projects as if they were conda environments
 
 # How does it work?
+Creates a uv-projects in the envs-dir which can then be activated and managed through using uvg
+
+## Basic Commands
 
 # Installation
 Obviously needs [uv](https://docs.astral.sh/uv/) installed.
