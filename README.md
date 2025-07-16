@@ -6,6 +6,13 @@ Creates a uv-projects in the envs-dir which can then be activated and managed th
 
 ## Basic Commands
 
+|Command              |Effect |
+|---------------------|--------|
+|uvg activate \<env>  | Activates given environment |
+|uvg deactivate \<enc>| Deactivates currently active enrionment |
+|uvg list             | Lists environments |
+|uvg \<command>       | Gets passed thorugh to uv which acts on currently active environment |
+
 # Installation
 Obviously needs [uv](https://docs.astral.sh/uv/) installed.
 ```bash
