@@ -5,7 +5,7 @@ A very small uv wrapper that lets you manage and use "globally" installed uv-pro
 > Highly work in progress! Not tested on any other machines!
 
 # How does it work?
-Creates a uv-projects in the envs-dir which can then be activated and managed through using uvg
+Creates uv-projects in the envs-dir which can then be activated and managed through using uvg
 
 ## Basic Commands
 
