@@ -5,7 +5,7 @@ A very small uv wrapper that lets you manage and use "globally" installed uv-pro
 > Highly work in progress! Not tested on any other machines!
 
 # How does it work?
-Creates a uv-projects in the envs-dir which can then be activated and managed through using uvg
+Creates uv-projects in the envs-dir which can then be activated and managed through using uvg
 
 ## Basic Commands
 
@@ -14,7 +14,7 @@ Creates a uv-projects in the envs-dir which can then be activated and managed th
 |uvg activate \<env>  | Activates given environment |
 |uvg deactivate \<enc>| Deactivates currently active enrionment |
 |uvg list             | Lists environments |
-|uvg \<command>       | Gets passed thorugh to uv which acts on currently active environment |
+|uvg \<command>       | Gets passed through to uv which acts on currently active environment |
 
 # Installation
 Obviously needs [uv](https://docs.astral.sh/uv/) installed.
