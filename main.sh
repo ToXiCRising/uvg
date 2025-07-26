@@ -11,10 +11,11 @@ uvg(){
 		export ENV_DIR=$UVG_ENVRIONMENTS/$2
 		
 		echo Set env to $ENV_DIR
-		UVG_FLAIR="[$2]"
+		export UVG_FLAIR="[$2]"
 
 	elif [[ $1 == "deactivate" ]]; then
-		export ENV_DIR=""	
+		export ENV_DIR=""
+		export UVG_FLAIR=""
 
 	elif [[ $1 == "list" ]]; then
 		echo Available Environments:
@@ -24,4 +25,8 @@ uvg(){
 		#echo Running with $ENV_DIR
 		UV_PROJECT=$ENV_DIR uv $@
 	fi
+}
+
+get_flair(){
+	echo $UVG_FLAIR 2> /dev/null
 }

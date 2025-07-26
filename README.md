@@ -27,3 +27,9 @@ Then run
 ./install.sh
 ```
 which appends a source command for this directory to your .bashrc in home.
+
+## VSCode
+You can add these enviroments to VSCode by editing the settings.json and adding this line
+```
+"python.venvPath" : "<path>/<to>/uvg/envs/<env-to-add>"
+```

@@ -15,5 +15,6 @@ function yes_or_no {
 yes_or_no "Install uv-global?" && printf '%s' "
 # >>> uv-global initalize >>> 
 source $SCRIPT_DIR/main.sh 
+export PS1='\$(echo -n "\$UVG_FLAIR")'\"\$PS1\"
 # <<< uv-global initalize <<<
-"
+" >> ~/.bashrc
